@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E3B3A29-4394-C3A1-C70A-460E7903911C" name="PROFESSOR">
+<createdBy>annabonfim</createdBy>
+<createdTime>2024-10-17 11:15:09 UTC</createdTime>
+<generatorID>42F12424-6A46-96E7-5FA4-ED77E09CB9CF</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_professor" id="D4264374-3109-4505-E303-EBA3CDA83F2F">
+<createdBy>annabonfim</createdBy>
+<createdTime>2024-10-17 11:15:09 UTC</createdTime>
+<generatorID>1B044230-5243-4635-13AE-503A4BA8E607</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_professor" id="FC4C54B9-5D3F-85BF-AA6F-58B225ACA30F">
+<createdBy>annabonfim</createdBy>
+<createdTime>2024-10-17 11:15:09 UTC</createdTime>
+<generatorID>524E3867-622B-2836-F598-67392C4F212D</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="135CDE7F-1305-1320-0183-BBFDCEC0DA61">
+<createdBy>annabonfim</createdBy>
+<createdTime>2024-10-17 11:15:09 UTC</createdTime>
+<generatorID>AD1EFC4F-BF3C-8DFF-7FBA-0ABFCF8C5C95</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gr_professor" id="9E603F15-005B-EE0A-A337-B6637DA5BF88">
+<createdBy>annabonfim</createdBy>
+<createdTime>2024-10-17 11:15:09 UTC</createdTime>
+<generatorID>A477276A-2EA3-AAD5-B8CF-EEE2265A2308</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="6EE6AA77-9828-6E51-6526-4A89055F89BA">
+<createdBy>annabonfim</createdBy>
+<createdTime>2024-10-17 11:15:09 UTC</createdTime>
+<generatorID>5C48158E-CEFC-BB10-E2AE-40C1DA91820C</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulacao" id="4DF81E1A-3D51-A00B-0CF7-0AA8766CF4C3">
+<createdBy>annabonfim</createdBy>
+<createdTime>2024-10-17 11:15:09 UTC</createdTime>
+<generatorID>AA3EE8EF-2F2D-658A-0297-8B6624CA04F0</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3ED29FAC-2BB1-1D7A-DD7A-BB261197F862" name="PROFESSOR_PK">
+<createdBy>annabonfim</createdBy>
+<createdTime>2024-10-17 11:15:09 UTC</createdTime>
+<generatorID>FC4D89B6-D8E6-F9C7-954B-7D4EB0E0820E</generatorID>
+<ownerDesignName>universidade</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4264374-3109-4505-E303-EBA3CDA83F2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
